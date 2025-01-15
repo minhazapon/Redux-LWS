@@ -4,7 +4,7 @@ function ReactCounter() {
 
     const [isCount, setCount] = useState(0)
 
-    const handleInrement = () => {
+    const handleIncrement = () => {
         setCount((plus) => plus + 1)
     }
     const handleDecrement = () => {
@@ -19,7 +19,7 @@ function ReactCounter() {
             <div className="mt-6 md:mt-10 flex flex-col md:flex-row justify-center items-center gap-3 md:gap-5">
                 <div>
                     <button
-                        onClick={() => handleInrement()}
+                        onClick={() => handleIncrement()}
                         className="btn bg-blue-950 text-white font-serif px-4 py-2 md:px-6 md:py-3"
                     >
                         Increment
