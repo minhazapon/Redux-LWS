@@ -5,7 +5,9 @@ function RootLayOut() {
     return (
         <div>
             <Nav></Nav>
-            <Outlet></Outlet>
+            <div className=" mt-10 mb-10 ml-20 mr-20 ">
+                <Outlet></Outlet>
+            </div>
         </div>
     )
 }
