@@ -1,9 +1,9 @@
-import ReactCounter from "./ReactCounter"
+import Redux from "./redux file/Redux"
 
 function Home() {
     return (
         <div>
-            <ReactCounter></ReactCounter>
+            <Redux></Redux>
         </div>
     )
 }
